@@ -38,7 +38,15 @@ const obj2 = {
 console.log(obj1)
 console.log(obj2)
 
-const obj3={...obj1,...obj2, key69:"Value69"};
+const obj3 = { ...obj1, ...obj2, key69: "Value69" };
 
 console.log(obj3);
+console.log("");
 
+// Destructuring
+const users = { userId: 1014, fName: "Hemang", gender: "male" };
+console.log(users);
+
+const { userId: id, ...res } = users;
+
+console.log(id, res);
