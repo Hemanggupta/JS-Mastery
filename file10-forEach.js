@@ -15,27 +15,27 @@ const users = [
 
 
 //real life use i.e. Objects
-users.forEach(function(users){
+users.forEach(function (users) {
   console.log(`Name : ${users.fName} and Age: ${users.age}`)
 })
 
 console.log("______________________");
 
 // object destructuring
-users.forEach(function ({ fName:name ,age}) {
+users.forEach(function ({ fName: name, age }) {
   console.log(`Name : ${name} and Age: ${age}`)
 })
 
 console.log("______________________");
 
 //using arrow func
-users.forEach(({ fName: name, age }) =>{
+users.forEach(({ fName: name, age }) => {
   console.log(`Name : ${name} and Age: ${age}`)
 })
 
 console.log("______________________");
 
 //single parameter doesnt need paranthesis
-users.forEach(users =>{
+users.forEach(users => {
   console.log(`Name : ${users.fName}`)
 })
