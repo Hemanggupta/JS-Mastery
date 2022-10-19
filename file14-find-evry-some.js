@@ -22,7 +22,7 @@ console.log(myUser);
 
 console.log("every()-------------");
 
-const numbers = [2, 4, 6, 8, 10];
+const numbers = [2, 4, 6, 8, 10, 11];
 console.log(numbers.every(num => num % 2 === 0));
 
 // const userCart = [

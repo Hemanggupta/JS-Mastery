@@ -44,15 +44,14 @@ about.call(person3, "Gupta", "male");//returns undifined
 
 about.call(person4, "Bhadwa", "male"); //.call(2nd object) with added arguments
 
-//apply() pass arguments as array
 console.log("\n\napply()\n\n");
 
-
+//apply() pass arguments as array
 about.apply(person4, ["Bhadwa", "male"]);
 
 
-//bind() returns a function
 console.log("\n\bind()\n\n");
 
+//bind() returns a function
 const func = about.bind(person3, "Gupta", "male");
 func();//performs "about" function with all arguments

@@ -9,8 +9,8 @@ const person = {
     console.log(this);
   },
   about: function () {
-    //this is replaced with parent object
-    return console.log(`Person's name is ${this.fName} ${this.lName} , Gender is ${this.gender} and Age is ${this.age}.`);
+    //'this' is replaced with parent object
+    return console.log(`\nPerson's name is ${this.fName} ${this.lName} , Gender is ${this.gender} and Age is ${this.age}.`);
   }
 }
 
