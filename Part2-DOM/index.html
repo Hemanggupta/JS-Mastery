@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>DOM practice</title>
+</head>
+
+<body>
+  <header class="header" id="home">
+    <nav class="nav container">
+      <h1 class="logo">TODO Website</h1>
+      <ul class="nav-items">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#todo">Todo</a></li>
+        <li><a href="#signup">Sign Up</a></li>
+      </ul>
+    </nav>
+    <div class="headline">
+      <h2>Manage your tasks</h2>
+      <button class="btn btn-headline">Learn more</button>
+    </div>
+  </header>
+  <section class="section-todo container">
+    <h2>Plan your whole day:</h2>
+    <form class="form-todo">
+      <input type="text" id="todo" placeholder="Add Todo">
+      <input class="btn" type="submit" value="Add Todo" name="" id="">
+    </form>
+  </section>
+  <section class="section-signup container" id="signup">
+    <h2>Sign Up</h2>
+    <form class="signup-form">
+      <div class="form-grp">
+        <label for="username">Username</label>
+        <input type="text" name="username" is="username">
+      </div>
+      <div class="form-grp">
+        <label for="password">Password</label>
+        <input type="passwordconfirmPassword" name="password" is="password">
+      </div>
+      <div class="form-grp">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="passwordphone" name="confirmPassword" is="confirmPassword">
+      </div>
+      <div class="form-grp">
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" is="phone">
+      </div>
+      <div class="form-grp">
+        <label for="email">Email</label>
+        <input type="email" name="email" is="email">
+      </div>
+      <div class="form-grp">
+        <label for="about">About Yourself</label>
+        <textarea name="about" id="about" cols="30" rows="10"></textarea>
+      </div>
+      <div><button type="submit" class="btn signup-btn">Submit</button></div>
+    </form>
+  </section>
+  <script src="file1.js"></script>
+</body>
+
+</html>
