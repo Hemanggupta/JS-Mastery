@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX</title>
+    <script src="./async-await.js" defer></script>
+    <style>
+      h1 {
+        padding: 1rem 2rem;
+        background: #333;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: cyan;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7),
+          5px 5px 16px rgba(0, 0, 0, 0.7);
+        transition: transform 1s ease;
+      }
+      h1:hover {
+        transform: translate(-50%, -50%) rotateX(360deg);
+      }
+      #h2 {
+        top: 25%;
+      }
+      body {
+        padding: 0;
+        margin: 0;
+        background: rgb(117, 187, 117);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>AJAX</h1>
+    <h1 id="h2">XHR</h1>
+    <p>hover on AJAX</p>
+  </body>
+</html>
